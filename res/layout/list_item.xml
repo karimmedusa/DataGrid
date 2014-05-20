@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/idText"
+        style="@style/TextViewBase"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal" />
+
+    <View style="@style/TextViewSeparator" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        style="@style/TextViewBase"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_horizontal" />
+
+    <View style="@style/TextViewSeparator" />
+
+    <TextView
+        android:id="@+id/commentText"
+        style="@style/TextViewBase"
+        android:layout_alignParentLeft="true" />
+
+    <View style="@style/TextViewSeparator" />
+
+</LinearLayout>
